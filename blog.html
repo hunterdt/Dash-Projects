@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>David's Blog</title>
+    <style>
+      link href="/normalize.css" rel="stylesheet">
+      body {
+        background-color: rgba(120,120,120,0.1);
+        font-family: sans-serif;
+      }
+      header {
+        background: url(https://www.colourbox.com/preview/9364505-vector-background-of-repeating-geometric-stars-geometric-background-retro-hipster-color-spectrum-background-mosaic-pattern-backdrop-repeating-circles-round-shapes.jpg);
+        text-align: center;
+        font-family: helvetica;
+      }
+      h1 {
+        background-color: rgba(0,0,0, .5);
+        text-align: center;
+        color: white;
+        font-size: 75px;
+        margin-bottom: 0px;
+      }
+      header img {
+        border: 5px solid rgba(0,0,0,.5);
+        border-radius: 25px;
+        margin: 25px 0px 0px 0px;
+      }
+      nav {
+        background-color: rgba(0,0,0,.5);
+      }
+      nav a {
+        color: white;
+        font-size: 30px;
+      }
+      nav li {
+       display: inline; 
+       padding: 0px 10px 0px 10px;
+      }
+      ul {
+        padding: 10px;
+      }
+      article h3 {
+        margin-bottom: 0px
+      }
+      article p {
+        margin-top: 0px;
+      }
+      article p:last-of-type {
+        margin-bottom: 0px;
+      }
+      article {
+        margin: 0 auto;
+        max-width: 500px;
+        padding: 20px 20px 10px 20px;
+        border-bottom: solid 2px rgba(155,155,155,0.3)
+      }
+      @media (max-width: 500px) {
+        h1 {
+          font-size: 35px;
+        }
+        nav li {
+          display: block;
+          padding; 5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+            <img src="https://placekitten.com/225/225" alt="David's Picture">
+      <h1>David's Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <h3>Hey, McFly!</h3>
+      <p>Maybe you were adopted. Hey. Where? That's true, Marty, I think you should spend the night. I think you're our responsibility. Did you hurt your head?</p>
+
+      <p>You wait and see, Mr. Caruthers, I will be mayor and I'll be the most powerful mayor in the history of Hill Valley, and I'm gonna clean up this town. Good morning. Whoa, they really cleaned this place up, looks brand new. Hello. Excuse me.</p>
+
+      <p>Okay. Chuck, Chuck, its' your cousin. Your cousin Marvin Berry, you know that new sound you're lookin for, well listen to this. What's going on? Where have you been all week? What was it, George, bird watching? Thanks a lot, kid.</p>
+      <button>Like</button>
+    </article>
+    
+    <article>
+      <h3>Number One</h3>
+      <p>Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody. Now we know what they mean by 'advanced' tactical training. You're going to be an interesting companion, Mr. Data. A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. </p>
+      <p>Our neural pathways have become accustomed to your sensory input patterns. Maybe we better talk out here; the observation lounge has turned into a swamp. I think you've let your personal feelings cloud your judgement.</p>
+      <button>Like</button>
+    </article>
+    
+    <article>
+      <h3>Spoiler Alert</h3>
+      <p>Hodor. Hodor hodor; hodor hodor, hodor. Hodor hodor?! Hodor hodor - hodor hodor hodor, hodor. Hodor hodor... Hodor hodor hodor. Hodor. Hodor hodor HODOR! Hodor hodor hodor HODOR hodor, hodor hodor? Hodor, hodor... Hodor hodor hodor; hodor hodor. Hodor. Hodor! Hodor hodor, hodor... Hodor hodor hodor; hodor hodor hodor; hodor hodor? Hodor, hodor. Hodor. Hodor, hodor, hodor. Hodor hodor; hodor hodor hodor hodor? Hodor HODOR hodor, hodor hodor hodor hodor hodor, hodor, hodor hodor.</p>
+      <button>Like</button>
+    </article>
+  <script>
+    $("button").on("click", function() {
+     alert("clicked!") 
+    })
+    // alert("Javascript works!")
+  </script>
+  </body>
+</html>
